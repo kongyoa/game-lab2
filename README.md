@@ -1,54 +1,54 @@
 # Game Lab 🎮
 
-Welcome to **Game Lab**! This project contains a collection of classic web-based games built with HTML, CSS, and JavaScript.
+欢迎来到 **Game Lab**！这是一个基于 HTML、CSS 和 JavaScript 构建的经典网页游戏合集项目。
 
-## 🕹️ Games List
+## 🕹️ 游戏列表
 
-### 1. Snake Game (贪吃蛇)
-A classic implementation of the Snake game where you control a snake to eat food and grow longer. Be careful not to hit the walls or yourself!
+### 1. 贪吃蛇 (Snake Game)
+经典的贪吃蛇游戏，控制蛇吃掉食物并不断变长。小心不要撞到墙壁或自己！
 
-- **Play**: Open `index.html` in your browser.
-- **Controls**: Use arrow keys (⬆️ ⬇️ ⬅️ ➡️) to move.
-- **Features**:
-  - Score tracking
-  - Game over detection (wall collision, self collision)
-  - Simple and clean UI
+- **开始游戏**: 在浏览器中打开 `index.html`。
+- **操作说明**: 使用方向键 (⬆️ ⬇️ ⬅️ ➡️) 控制移动。
+- **功能特性**:
+  - 实时分数统计
+  - 游戏结束检测（撞墙、撞击自身）
+  - 简洁清爽的界面
 
-### 2. Gomoku (五子棋)
-A strategic two-player board game also known as Five in a Row. Players take turns placing black and white stones on a 15x15 grid. The first player to get five stones in a row wins.
+### 2. 五子棋 (Gomoku)
+一款策略型双人棋类游戏，也被称为“五子连珠”。双方轮流在 15x15 的棋盘上放置黑白棋子，先连成五子者获胜。
 
-- **Play**: Open `gomoku.html` in your browser.
-- **Controls**: Click on the board to place your piece.
-- **Features**:
-  - 15x15 standard board
-  - Two-player local multiplayer
-  - Win detection (horizontal, vertical, diagonal)
-  - Undo functionality
-  - Restart game option
+- **开始游戏**: 在浏览器中打开 `gomoku.html`。
+- **操作说明**: 点击棋盘放置棋子。
+- **功能特性**:
+  - 15x15 标准棋盘
+  - 双人本地对战模式
+  - 胜负判定（横向、纵向、斜向）
+  - 悔棋功能
+  - 重新开始选项
 
-## 🚀 How to Run
+## 🚀 如何运行
 
-You can simply open the HTML files directly in your web browser. Alternatively, for a better experience, you can serve the files using a local web server.
+您可以直接在浏览器中打开 HTML 文件。或者为了获得更好的体验，建议使用本地 Web 服务器来运行。
 
-### Using Python (recommended)
+### 使用 Python (推荐)
 
-If you have Python installed, run the following command in the project directory:
+如果您已安装 Python，请在项目根目录下运行以下命令：
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open your browser and navigate to:
-- **Snake**: [http://localhost:8000/index.html](http://localhost:8000/index.html)
-- **Gomoku**: [http://localhost:8000/gomoku.html](http://localhost:8000/gomoku.html)
+然后在浏览器中访问：
+- **贪吃蛇**: [http://localhost:8000/index.html](http://localhost:8000/index.html)
+- **五子棋**: [http://localhost:8000/gomoku.html](http://localhost:8000/gomoku.html)
 
-## 🛠️ Tech Stack
+## 🛠️ 技术栈
 
-- **HTML5**: Structure and semantics
-- **CSS3**: Styling and layout (Flexbox)
-- **JavaScript (ES6+)**: Game logic and interactivity
-- **Canvas API**: Rendering game graphics
+- **HTML5**: 结构与语义化
+- **CSS3**: 样式与布局 (Flexbox)
+- **JavaScript (ES6+)**: 游戏逻辑与交互
+- **Canvas API**: 游戏图形渲染
 
-## 📄 License
+## 📄 许可证
 
-This project is open source and available under the [MIT License](LICENSE).
+本项目开源并遵循 [MIT License](LICENSE) 许可证。
