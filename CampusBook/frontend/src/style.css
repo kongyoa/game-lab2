@@ -1,0 +1,46 @@
+:root {
+  --primary: #667eea;
+  --primary-dark: #764ba2;
+  --text: #333;
+  --text-light: #666;
+  --bg: #f5f7fa;
+  --card-bg: #fff;
+  --border: #e5e7eb;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  
+  font-family: 'Microsoft YaHei', 'PingFang SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+button {
+  font-family: inherit;
+}
