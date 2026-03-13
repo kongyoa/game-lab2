@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五子棋对战</title>
+    <link rel="stylesheet" href="gomoku_style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <header>
+            <h1>五子棋</h1>
+            <div class="status-panel">
+                <div id="current-player" class="player-indicator black-turn">当前回合: 黑棋</div>
+                <div id="game-message"></div>
+            </div>
+        </header>
+
+        <div class="board-container">
+            <canvas id="gomoku-board" width="450" height="450"></canvas>
+            <!-- Hover effect layer could be added here if needed, but simple canvas works -->
+        </div>
+
+        <div class="controls">
+            <button id="undo-btn" class="btn secondary">悔棋</button>
+            <button id="restart-btn" class="btn primary">重新开始</button>
+        </div>
+        
+        <div class="instructions">
+            <p>规则说明：黑白双方轮流落子，先连成五子（横、竖、斜）者获胜。</p>
+        </div>
+    </div>
+    <script src="gomoku_script.js"></script>
+</body>
+</html>
